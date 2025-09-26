@@ -59,6 +59,26 @@ form input[type="password"] {
   font-size: 14px;
 }
 
+/* Style untuk tombol lihat password */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.icon-eye {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-75%);
+  cursor: pointer;
+  font-size: 20px;
+  color: #666;
+}
+
 .remember {
   display: flex;
   align-items: center;
